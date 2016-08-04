@@ -14,5 +14,5 @@ urlpatterns = patterns('',
     url(r'doctor/update', update_doctor),
     url(r'clinic/update', update_clinic),
     url(r'doctor/delete', delete_doctor),
-    #url(r'clinic/delete', delete_clinic),
+    url(r'clinic/delete', delete_clinic),
 )
